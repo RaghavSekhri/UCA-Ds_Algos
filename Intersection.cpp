@@ -26,15 +26,10 @@ int main()
 			j++;
 		else
 		{
-			res[k]=a[i];
+			cout<<"Intersection of elemets are :- "<<"\n"<<a[i];
 			i++;
 			j++;
-			k++;
 		}
 	}
-	cout<<"Intersecting elements are :- "<<"\n";
-	for(int l=0;l<k;l++)
-		cout<<res[l]<<" ";
-	cout<<"\n";
 	return 0;
 }
