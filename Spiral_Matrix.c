@@ -49,7 +49,7 @@ int main()
     printf("Enter Size of array : ");
     scanf("%d",&size);
     int arr[size][size];
-    printf("Enter elements of array :-\n");
+    printf("Enter elements of array : ");
     for(int i=0;i<size;i++)
     {
         for(int j=0;j<size;j++)
