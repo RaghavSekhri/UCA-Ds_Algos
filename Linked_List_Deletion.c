@@ -40,7 +40,7 @@ void append(int n,struct node* head)
 		}
 	}
 	temp = head;
-	printf("Linked List before addition of node at beginning :- \n");
+	printf("Linked List before deletition :- \n");
 	while(temp != NULL)
 	{
 		printf("The data is : %d and next address is : %p>\n",temp->data,temp->next);
