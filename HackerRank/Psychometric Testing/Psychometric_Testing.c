@@ -12,7 +12,6 @@
  * int a[3] = {1, 2, 3};
  * *result_size = 3;
  * return a;
- * 
  */
  int cmpfunc (const void * a, const void * b) {
    return ( *(int*)a - *(int*)b );
