@@ -1,5 +1,3 @@
-1....
-
 #include <assert.h>
 #include <ctype.h>
 #include <limits.h>
