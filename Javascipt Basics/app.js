@@ -60,3 +60,20 @@ function abc(...a)
     console.log(a);
 }
 abc(10, 20, 30);
+
+// $$ arrow functions $$
+
+var hello = () => {
+    console.log('hello world');
+}
+hello();
+
+var hello = (a = 20, b = 30) => {
+    console.log(a+b);
+}
+hello();
+
+var hello = a => {
+    console.log();
+}
+hello(20);
