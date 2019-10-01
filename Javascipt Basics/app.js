@@ -40,3 +40,23 @@ function abc()
 const obj = {d:25};
 obj.d = 111;
 console.log(obj.d);
+
+// $$ functions $$
+
+function abc(a, b, c)
+{
+    console.log(a + " ", b + " ", c + " ");
+}
+abc(10, 20, 30);
+
+function abc(a=10, b, c)
+{
+    console.log(a + " ", b + " ", c + " ");
+}
+abc(10, 20);
+
+function abc(...a)
+{
+    console.log(a);
+}
+abc(10, 20, 30);
