@@ -25,3 +25,12 @@ if(true)
 console.log(a);
 
 // 'let' has local scope and 'var' has global scope
+
+//  $$ hoisting $$
+
+abc();
+
+function abc()
+{
+    console.log('abc');
+}
