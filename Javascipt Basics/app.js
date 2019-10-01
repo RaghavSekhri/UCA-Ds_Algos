@@ -34,3 +34,9 @@ function abc()
 {
     console.log('abc');
 }
+
+// $$ const $$
+
+const obj = {d:25};
+obj.d = 111;
+console.log(obj.d);
