@@ -89,3 +89,26 @@ var officers = [
   
 const officersIds = officers.map(officer => officer.id);
 console.log(officersIds);
+
+// $$ objects $$
+let obj = {};
+obj.name = 'abc';
+obj.age = 20;
+console.log(obj);
+console.log(obj.name);
+console.log(obj.age);
+obj.name = 'xyz';
+console.log(obj.name);
+  
+let obj1 = {
+    name: 'zues',
+    age: 16,
+    interests: ['coding', 'reading books', 'running'],
+    greet: function(){
+      console.log('hi')
+  },
+    address: {street: 12, sector: 46}
+  };
+console.log(obj1.greet());
+console.log(obj1.interests[0]);
+console.log(obj1.address.sector);
