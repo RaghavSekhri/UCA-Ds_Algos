@@ -128,3 +128,34 @@ function person(name)
 }
 console.log(obj.name);
 console.log(obj1.name);
+
+// $$ classes $$
+
+class persons{
+    constructor(name)
+    {
+        this.name=name;
+    }
+    greet(){
+        return "hello "+this.name;
+    }
+}
+
+let obb = new persons("abcd");
+console.log(obb.greet());
+
+class student extends persons{
+    constructor(name,grade)
+    {
+        super(name);
+        this.grade = grade;
+    }
+    getClass()
+    {
+        return "name : "+this.name+"\n"+"grade : "+this.grade;
+    }
+}
+
+let obbb = new student("abccd",9.8);
+
+console.log(obbb.getClass());
