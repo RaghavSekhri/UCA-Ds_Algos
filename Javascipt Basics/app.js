@@ -91,6 +91,7 @@ const officersIds = officers.map(officer => officer.id);
 console.log(officersIds);
 
 // $$ objects $$
+
 let obj = {};
 obj.name = 'abc';
 obj.age = 20;
@@ -112,3 +113,18 @@ let obj1 = {
 console.log(obj1.greet());
 console.log(obj1.interests[0]);
 console.log(obj1.address.sector);
+
+// $$ object instance $$
+
+let obj = new person("abc");
+let obj1 = new person("xyz");
+function person(name)
+{
+    this.name = name;
+    this.greet = function()                           // using this function as a constructor
+    {
+        return "Hello " + this.name;
+    }
+}
+console.log(obj.name);
+console.log(obj1.name);
