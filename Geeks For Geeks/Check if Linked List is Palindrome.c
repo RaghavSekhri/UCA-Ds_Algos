@@ -1,3 +1,5 @@
+//code starts here
+
 bool isPalindrome(Node *head)
 {
 Node *p;
