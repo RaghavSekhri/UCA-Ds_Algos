@@ -3,7 +3,6 @@ using namespace std;
   
 #define N 4 
   
-// Converts A[][] to its transpose 
 void transpose(int A[][N]) 
 { 
     for (int i = 0; i < N; i++) 
